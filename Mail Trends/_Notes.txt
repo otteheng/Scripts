@@ -1,0 +1,9 @@
+NOTES on R Script
+1.31.2022
+
+Most of these graphs used in the Mail Trends were originally done as part of the Mail Floor Project.
+I've pulled in only the R scripts that were used in the Mail Trends slides without changing the 
+original ordering found in the Mail Floor project. 
+ 
+If interested, the Mail Floor project R scripts can be found here: 
+ARTSI Team Folder - Documents\Projects\Mail Floor\Code\Script

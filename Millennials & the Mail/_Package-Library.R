@@ -1,0 +1,26 @@
+# -> Gerhard O
+# -> Last updated: 3/22/2021
+
+# List of R packages. Update as needed. 
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+library(stringr)
+library(readxl)
+library(openxlsx)
+library(data.table)
+library(janitor)
+library(ggplot2)
+library(broom)
+library(stargazer)
+library(car) 
+library(MASS)
+library(hrbrthemes)
+library(viridis)
+library(ggsignif)
+library(patchwork)
+library(DataCombine)
+library(reshape2)
+library(lemon)
+library(ggtext)
+library(scales)

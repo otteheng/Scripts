@@ -1,0 +1,56 @@
+    
+
+#------------------------------------------------------------------------#
+#                 Step 1: Check that all dfs contain SAMPLE.NUMBER,      # 
+#                             SURVEY.YEAR, MAIL.PIECE                    #
+#                                 Data: 1a_HDS                           #
+#------------------------------------------------------------------------#
+
+#1.1: Print out column names for all variables
+
+    #A. Get list of all CSVs in directory
+    file.name.csv <- dir(raw_data_path, pattern=".csv")
+    
+    #B. Loop through files
+    for (i in file.name.csv) {
+      print(i)
+      df <- read.csv(file= paste(raw_data_path, i, sep = '/'), 
+                     sep=",", colClasses=c(rep(NA, 7), rep("NULL", 500)) )  
+      print(colnames(df[, 1:5]))
+      print()
+    }
+    
+# RESULTS BELOW #
+    #  "1a_brmr_prst.csv"
+    #  "SAMPLE.NUMBER"  "RECEIPT.DAY"    "MAIL.PIECE"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_dryts_final.csv"
+    #  "Sample.Number"      "Recruitment.WeightDiary.HH.Weight"    "RECWGT_00A"         "RECWGT_10A"        
+    #  
+    #  "1a_fcmr.csv"
+    #  "Sample.Number"  "Receipt.Day"    "Mail.Piece"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_fcms.csv"
+    #  "Sample.Number"  "Receipt.Day"    "Mail.Piece"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_npmr_prst.csv"
+    #  "SAMPLE.NUMBER"  "RECEIPT.DAY"    "MAIL.PIECE"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_pemr.csv"
+    #  "SAMPLE.NUMBER"  "RECEIPT.DAY"    "MAIL.PIECE"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_pkgr_prst_np.csv"
+    #  "SAMPLE.NUMBERRECEIPT.DAY"   "MAIL.PIECE"    "FILE_SOURCE"   "SURVEY.YEAR"  
+    #  
+    #  "1a_pkgs.csv"
+    #  "SAMPLE.NUMBER"  "RECEIPT.DAY"    "MAIL.PIECE"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
+    #  "1a_rects_final.csv"
+    #  "Sample.Number"      "Recruitment.WeightDiary.HH.Weight"    "RECWGT_00A"         "RECWGT_10A"        
+    #  
+    #  "1a_rstts_final.csv"
+    #  "PSAMP"      "PERNO"      "YEAR"       "Gender"     "Age.Cohort"
+    #  
+    #  "1a_uamr.csv"
+    #  "SAMPLE.NUMBER"  "RECEIPT.DAY"    "MAIL.PIECE"     "SURVEY.YEAR"    "Postal.Quarter"
+    #  
