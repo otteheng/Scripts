@@ -1,0 +1,7 @@
+Explain Files in this folder
+
+The histogram and descriptive stats in this folder are for the old variable
+MAIL.VOLUME.SUM. There was an error in creating MAIL.VOLUME.SUM leading it 
+to include package received. I caught the mistake when Peter asked me to
+include Mail Sent into our regressions in 2g_HDS. Added Mail sent and 
+Packages sent in 2c_HDS.

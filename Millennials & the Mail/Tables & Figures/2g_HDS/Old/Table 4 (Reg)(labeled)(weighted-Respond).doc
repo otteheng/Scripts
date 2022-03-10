@@ -1,0 +1,85 @@
+
+<table style="text-align:center"><caption><strong>Table 4: Regression Results (Weight:Respondent)</strong></caption>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">Log of Total Mail Volume</td></tr>
+<tr><td style="text-align:left"></td><td>2005</td><td>2014</td><td>2005</td><td>2014</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Cohort 25-34</td><td>-0.111<sup>**</sup></td><td>0.123<sup>**</sup></td><td>-0.123</td><td>0.523<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.047)</td><td>(0.049)</td><td>(0.141)</td><td>(0.149)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54</td><td>0.099<sup>**</sup></td><td>0.440<sup>***</sup></td><td>-0.108</td><td>0.486<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.045)</td><td>(0.051)</td><td>(0.133)</td><td>(0.144)</td></tr>
+<tr><td style="text-align:left">Children</td><td>0.058<sup>**</sup></td><td>0.128<sup>***</sup></td><td>0.039</td><td>0.188</td></tr>
+<tr><td style="text-align:left"></td><td>(0.024)</td><td>(0.029)</td><td>(0.094)</td><td>(0.138)</td></tr>
+<tr><td style="text-align:left">Married</td><td>0.234<sup>***</sup></td><td>0.321<sup>***</sup></td><td>-0.055</td><td>0.215<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.026)</td><td>(0.030)</td><td>(0.098)</td><td>(0.123)</td></tr>
+<tr><td style="text-align:left">Home Owner</td><td>0.442<sup>***</sup></td><td>0.298<sup>***</sup></td><td>0.512<sup>***</sup></td><td>0.365<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.030)</td><td>(0.032)</td><td>(0.088)</td><td>(0.128)</td></tr>
+<tr><td style="text-align:left">Male</td><td>-0.069<sup>***</sup></td><td>-0.131<sup>***</sup></td><td>-0.082</td><td>-0.132</td></tr>
+<tr><td style="text-align:left"></td><td>(0.024)</td><td>(0.030)</td><td>(0.090)</td><td>(0.093)</td></tr>
+<tr><td style="text-align:left">Region: Northeast</td><td>0.057<sup>*</sup></td><td>-0.047</td><td>0.325<sup>**</sup></td><td>0.334<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.034)</td><td>(0.043)</td><td>(0.158)</td><td>(0.148)</td></tr>
+<tr><td style="text-align:left">Region: South</td><td>-0.112<sup>***</sup></td><td>-0.062<sup>*</sup></td><td>-0.200<sup>*</sup></td><td>0.188<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.029)</td><td>(0.035)</td><td>(0.110)</td><td>(0.107)</td></tr>
+<tr><td style="text-align:left">Region: West</td><td>0.016</td><td>-0.027</td><td>0.131</td><td>0.566<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.033)</td><td>(0.040)</td><td>(0.121)</td><td>(0.125)</td></tr>
+<tr><td style="text-align:left">Race: Black</td><td>-0.253<sup>***</sup></td><td>-0.179<sup>***</sup></td><td>-0.581<sup>***</sup></td><td>0.031</td></tr>
+<tr><td style="text-align:left"></td><td>(0.048)</td><td>(0.051)</td><td>(0.174)</td><td>(0.161)</td></tr>
+<tr><td style="text-align:left">Race: Other</td><td>-0.147<sup>***</sup></td><td>-0.017</td><td>-0.464<sup>***</sup></td><td>-0.122</td></tr>
+<tr><td style="text-align:left"></td><td>(0.040)</td><td>(0.052)</td><td>(0.110)</td><td>(0.131)</td></tr>
+<tr><td style="text-align:left">BS or Higher</td><td>0.373<sup>***</sup></td><td>0.343<sup>***</sup></td><td>0.203</td><td>0.244<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.027)</td><td>(0.035)</td><td>(0.124)</td><td>(0.130)</td></tr>
+<tr><td style="text-align:left">Some College</td><td>0.147<sup>***</sup></td><td>0.158<sup>***</sup></td><td>0.220<sup>**</sup></td><td>-0.028</td></tr>
+<tr><td style="text-align:left"></td><td>(0.028)</td><td>(0.040)</td><td>(0.090)</td><td>(0.126)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Children</td><td></td><td></td><td>-0.048</td><td>-0.089</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.105)</td><td>(0.145)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Children</td><td></td><td></td><td>0.056</td><td>-0.093</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.099)</td><td>(0.144)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Married</td><td></td><td></td><td>0.309<sup>***</sup></td><td>0.016</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.110)</td><td>(0.131)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Married</td><td></td><td></td><td>0.315<sup>***</sup></td><td>0.194</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.103)</td><td>(0.130)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Home Owner</td><td></td><td></td><td>-0.130</td><td>-0.077</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.100)</td><td>(0.135)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Home Owner</td><td></td><td></td><td>-0.018</td><td>-0.059</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.099)</td><td>(0.137)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Male</td><td></td><td></td><td>-0.027</td><td>-0.017</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.101)</td><td>(0.104)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Male</td><td></td><td></td><td>0.025</td><td>0.011</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.095)</td><td>(0.102)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Northeast</td><td></td><td></td><td>-0.308<sup>*</sup></td><td>-0.496<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.170)</td><td>(0.162)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*South</td><td></td><td></td><td>0.009</td><td>-0.337<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.122)</td><td>(0.120)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*West</td><td></td><td></td><td>-0.156</td><td>-0.713<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.135)</td><td>(0.140)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Northeast</td><td></td><td></td><td>-0.258</td><td>-0.365<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.164)</td><td>(0.160)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*South</td><td></td><td></td><td>0.147</td><td>-0.218<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.117)</td><td>(0.118)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*West</td><td></td><td></td><td>-0.110</td><td>-0.623<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.128)</td><td>(0.138)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Black</td><td></td><td></td><td>0.403<sup>**</sup></td><td>-0.240</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.196)</td><td>(0.184)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Other</td><td></td><td></td><td>0.341<sup>***</sup></td><td>0.156</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.124)</td><td>(0.151)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Black</td><td></td><td></td><td>0.334<sup>*</sup></td><td>-0.249</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.185)</td><td>(0.175)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Other</td><td></td><td></td><td>0.368<sup>***</sup></td><td>0.069</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.127)</td><td>(0.158)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*BS or Higher</td><td></td><td></td><td>0.166</td><td>-0.014</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.133)</td><td>(0.143)</td></tr>
+<tr><td style="text-align:left">Cohort 25-34*Some College</td><td></td><td></td><td>-0.001</td><td>0.135</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.106)</td><td>(0.144)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*BS or Higher</td><td></td><td></td><td>0.167</td><td>0.187</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.129)</td><td>(0.138)</td></tr>
+<tr><td style="text-align:left">Cohort 45-54*Some College</td><td></td><td></td><td>-0.123</td><td>0.253<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.097)</td><td>(0.137)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>2.463<sup>***</sup></td><td>1.824<sup>***</sup></td><td>2.579<sup>***</sup></td><td>1.663<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.051)</td><td>(0.056)</td><td>(0.122)</td><td>(0.128)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,985</td><td>1,701</td><td>1,985</td><td>1,701</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.338</td><td>0.363</td><td>0.356</td><td>0.385</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.333</td><td>0.358</td><td>0.345</td><td>0.372</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>77.322<sup>***</sup> (df = 13; 1971)</td><td>73.867<sup>***</sup> (df = 13; 1687)</td><td>30.848<sup>***</sup> (df = 35; 1949)</td><td>29.754<sup>***</sup> (df = 35; 1665)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
